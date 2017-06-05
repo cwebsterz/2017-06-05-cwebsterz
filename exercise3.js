@@ -8,8 +8,8 @@ const teams = [
   ]
 
 var byLeague = function(item) {
-  
-  return item.league === 'AL'
+
+  return item.league === 'NL'
 }
 
 var filteredLeague = teams.filter(byLeague)
