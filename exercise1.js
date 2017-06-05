@@ -1,6 +1,6 @@
 var student = {
-  name : David Rayy,
-  sclass : VI,
+  name : "David Rayy",
+  sclass : "VI",
   rollno : 12 }
 
 delete student.rollno
