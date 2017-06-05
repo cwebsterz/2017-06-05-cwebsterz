@@ -7,6 +7,4 @@ const teams = [
     {id: 1, name: "Cubs", league: "NL"}
   ]
 
-var firstThree = teams.slice(0,3)
-
-console.log(firstThree)
+console.log(teams.slice(0,3))
