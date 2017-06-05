@@ -7,10 +7,7 @@ const teams = [
     {id: 1, name: "Cubs", league: "NL"}
   ]
 
-var byLeague = function(item) {
-
-  return item.league === 'NL'
-}
+var byLeague = item => item.league === 'NL'
 
 var filteredLeague = teams.filter(byLeague)
 
